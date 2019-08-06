@@ -49,18 +49,11 @@ ul .about{
     text-align: right;
 }
 
-ul .about a{
-    padding-right: 20%;
-}
-
 ul .git{
     flex: 2;
     text-align: left;
 }
 
-ul .git a{
-    padding-left: 20%;
-}
 
 nav li{
     flex: 1;
@@ -76,7 +69,7 @@ nav li{
 
 nav li a{
     flex-direction: column;
-    padding: 10px 10%;
+    padding: 10px 5%;
     align-items: stretch;
     flex: 1;
     background-color: rgb(46, 40, 40);
