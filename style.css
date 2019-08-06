@@ -241,7 +241,7 @@ h1:before{
     
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 1200px)
 {
     nav li a{
         font-size: .8em;
