@@ -237,4 +237,13 @@ h1:before{
     ul .about a{
         padding-right: 0;
     }
+
+    
+}
+
+@media screen and (max-width: 500px)
+{
+    nav li a{
+        font-size: .8em;
+    }
 }
