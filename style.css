@@ -54,6 +54,13 @@ ul .git{
     text-align: left;
 }
 
+ul .git a{
+    padding-left: 20%;
+}
+
+ul .about a{
+    padding-right: 20%;
+}
 
 nav li{
     flex: 1;
@@ -209,4 +216,25 @@ h1:before{
 }
 .portfolio{
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    ul .about{
+        flex: 1;
+        text-align: center;
+    }
+    
+    ul .git{
+        flex: 1;
+        text-align: center;
+    }
+
+    ul .git a{
+        padding-left: 0;
+    }
+    
+    ul .about a{
+        padding-right: 0;
+    }
 }
